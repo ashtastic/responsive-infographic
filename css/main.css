@@ -23,6 +23,49 @@ body {
   background-color: #302f1b;
 }
 
-#left-brain {
-  width: 100%;
+/** HEADER **/
+
+#left-brain, #right-brain {
+  width: 25%;
 }
+
+#vs {
+  width: 12%;
+}
+
+.left-brain-outline {
+  fill: #0f8072;
+}
+
+.left-brain-fill {
+  fill: #cceaeb;
+}
+
+.brain-text {
+  fill: none;
+}
+
+.vs-white {
+  fill: #fff;
+}
+
+.vs-text {
+  font-family: "CabinSketch-Bold"
+}
+
+.vs-text-size {
+  font-size: 48px;
+}
+
+.right-brain-outline {
+  fill: #f7941e;
+}
+
+.right-brain-fill {
+  fill: #f8f6c0;
+}
+
+h1 {
+  font
+}
+
