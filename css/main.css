@@ -69,6 +69,36 @@ body {
   letter-spacing: -1;
 }
 
+/** BOXES **/
+
+.info-box {
+  margin: 0.5em;
+  padding: 0.5em;
+  background: #fff;
+  border: solid 3px #000;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.lb-box {
+  margin: 0.5em;
+  padding: 0.5em;
+  background: #e7f4d7;
+  border: solid 3px #004a41;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.rb-box {
+  margin: 0.5em;
+  padding: 0.5em;
+  background: #f7f5c0;
+  border: solid 3px #b54d15;
+  border-radius: 10px;
+  text-align: center;
+}
+
+
 
 
 
