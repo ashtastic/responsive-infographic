@@ -28,7 +28,7 @@ body {
 
 /** HEADER-BRAINS **/
 
-.header-brains {
+#header-brains {
   width: 100%;
 }
 
@@ -73,7 +73,7 @@ body {
 
 .info-box {
   margin: 2em;
-  padding: 0.5em;
+  padding: 1em;
   background: #fff;
   border: solid 3px #000;
   border-radius: 10px;
@@ -82,20 +82,22 @@ body {
 
 .lb-box {
   margin: 0.5em 0.5em 0.5em 1em;
-  padding: 0.5em;
+  padding: 1em;
   background: #e7f4d7;
   border: solid 3px #004a41;
   border-radius: 10px;
   text-align: center;
+  color: #004a41;
 }
 
 .rb-box {
   margin: 0.5em 1em 0.5em 0.5em;
-  padding: 0.5em;
+  padding: 1em;
   background: #f7f5c0;
   border: solid 3px #b54d15;
   border-radius: 10px;
   text-align: center;
+  color: #b54d15;
 }
 
 /** BRAIN ICONS **/
@@ -130,29 +132,308 @@ body {
   fill: #0fa0b9;
 }
 
-.rb-icon0 {
+.emotional0 {
   fill: #f6921e;
   stroke: #b54d15;
   stroke-width: 3;
   stroke-miterlimit: 10;
 }
 
-.rb-icon1 {
-  fill:#fff;
+.emotional1 {
+  fill: #fff;
 }
 
-.rb-icon2 {
+.emotional2 {
   fill: #b54d15;
 }
 
-.rb-icon3 {
+.emotional3 {
   fill: #0fa0b9;
   stroke: #cce9eb;
   stroke-width: 6;
   stroke-miterlimit: 10;
 }
 
+.realistic0 {
+  fill: #0b8072;
+  stroke: #004a41;
+  stroke-width: 3;
+  stroke-miterlimit: 10;
+}
 
+.realistic1 {
+  fill:#004a41;
+}
 
+.realistic2 {
+  fill: #fff;
+}
 
+.realistic3 {
+  fill: #fff;
+  stroke: #0Fa0b9;
+  stroke-width: 6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
 
+.realistic4 {
+  fill: #0fa0b9;
+  stroke:#223e52;
+  stroke-width: 8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.realistic5 {
+  fill: #fff;
+  stroke: #0fa0b9;
+  stroke-width: 4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.impulsive0 {
+  fill: #f6921e;
+  stroke: #b54d15;
+  stroke-width: 3;
+  stroke-miterlimit: 10;
+}
+
+.impulsive1 {
+  fill: #fff;
+}
+
+.impulsive2 {
+  fill: #b54d15;
+}
+
+.impulsive3 {
+  fill: #fff;
+  stroke: #ffc50a;
+  stroke-width: 6;
+  stroke-miterlimit: 10;
+}
+
+.impulsive4 {
+  fill: #f05a22;
+  stroke: #f06356;
+  stroke-width:2;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+}
+
+.critic0 {
+  fill: #0b8072;
+  stroke: #004a41;
+  stroke-width: 3;
+  stroke-miterlimit: 10;
+}
+
+.critic1 {
+  fill: #fff;
+}
+
+.critic2 {
+  fill: #004a41;
+}
+
+.critic3 {
+  fill: none;
+  stroke: #0fa0b9;
+  stroke-width: 16;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+}
+
+.critic4 {
+  fill: #fff;
+  stroke: #0fa0b9;
+  stroke-width: 10;
+  stroke-miterlimit: 10;
+}
+
+.critic5 {
+  fill: #223e52;
+}
+
+.critic6 {
+  fill: none;
+  stroke: #223e52;
+  stroke-width: 4;
+  stroke-miterlimit: 10;
+}
+
+.creative0 {
+  fill: #f6921e;
+  stroke: #b54d15;
+  stroke-width: 3;
+  stroke-miterlimit: 10;
+}
+
+.creative1 {
+  fill:#fff;
+}
+
+.creative2 {
+  fill: #b54d15;
+}
+
+.creative3 {
+  fill:#ffc50a;
+  stroke: #f05a22;
+  stroke-width: 4;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+}
+
+.creative4 {
+  fill: none;
+  stroke: #b54d15;
+  stroke-width: 10;
+  stroke-miterlimit: 10;
+}
+
+.logical0 {
+  fill: #0b8072;
+  stroke: #004a41;
+  stroke-width: 3;
+  stroke-miterlimit: 10;
+}
+
+.logical1 {
+  fill:#fff;
+}
+
+.logical2 {
+  fill: #004a41;
+}
+
+.logical3 {
+  fill: #fff;
+  stroke: #4ec5e0;
+  stroke-width: 6;
+  stroke-miterlimit: 10;
+  }
+
+.logical4 {
+  fill: none;
+  stroke: #4ec5e0;
+  stroke-width: 6;
+  stroke-miterlimit: 10;
+}
+
+.logical5 {
+  fill: none;
+  stroke: #4ec5e0;
+  stroke-width: 6;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+}
+
+.logical6 {
+  fill: none;
+  stroke: #223e52;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+
+.rational0 {
+  fill: #0b8072;
+  stroke: #004a41;
+  stroke-width: 3;
+  stroke-miterlimit: 10;
+}
+
+.rational1 {
+  fill:#004a41;
+}
+
+.rational2 {
+  fill:#fff;
+}
+
+.rational3 {
+  fill:#0fa0b9;
+}
+
+.rational4 {
+  fill:#223e52;
+}
+
+.intuitive0 {
+  fill:#f6921e;
+  stroke: #b54d15;
+  stroke-width:3;
+  stroke-miterlimit:10;
+}
+
+.intuitive1 {
+  fill: #fff;
+}
+
+.intuitive2 {
+  fill:#b54d15;
+}
+
+.intuitive3 {
+  fill:#ffc50a;
+}
+
+.intuitive4 {
+  fill: #f05a22;
+}
+
+.precise0 {
+  fill: #0b8072;
+  stroke: #004a41;
+  stroke-width: 3;
+  stroke-miterlimit: 10;
+}
+
+.precise1 {
+  fill:#fff;
+}
+
+.precise2 {
+  fill: #004a41;
+}
+
+.precise3 {
+  fill: none;
+  stroke: #0fa0b9;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+
+.precise4 {
+  fill: none;
+  stroke: #0fa0b9;
+  stroke-width: 6;
+  stroke-miterlimit: 10;
+}
+
+.psychic0 {
+  fill: #f6921e;
+  stroke: #b54d15;
+  stroke-width: 3;
+  stroke-miterlimit:10;
+}
+
+.psychic1 {
+  fill: #fff;
+}
+
+.psychic2 {
+  fill: none;
+  stroke: #b54d15;
+  stroke-width: 9;
+  stroke-miterlimit: 10;
+}
+
+.psychic3 {
+  fill: #b54d15;
+}
