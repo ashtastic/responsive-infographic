@@ -28,6 +28,10 @@ body {
 
 /** HEADER-BRAINS **/
 
+.header-brains {
+  width: 100%;
+}
+
 .header-brains0 {
   fill: none;
   display: none;
@@ -64,5 +68,7 @@ body {
 .header-brains8 {
   letter-spacing: -1;
 }
+
+
 
 
