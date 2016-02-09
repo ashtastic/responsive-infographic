@@ -11,7 +11,10 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-  font-family: 'Cabin Sketch';
+
+  font-family: 'Fredoka One', cursive;
+  font-family: 'Quicksand', sans-serif;
+
 }
 
 *, *::before, *::after {
@@ -20,52 +23,46 @@ html {
 
 body {
   margin: 0;
-  background-color: #302f1b;
+  background-color: #fdfced;
 }
 
-/** HEADER **/
+/** HEADER-BRAINS **/
 
-#left-brain, #right-brain {
-  width: 25%;
-}
-
-#vs {
-  width: 12%;
-}
-
-.left-brain-outline {
-  fill: #0f8072;
-}
-
-.left-brain-fill {
-  fill: #cceaeb;
-}
-
-.brain-text {
+.header-brains0 {
   fill: none;
+  display: none;
 }
 
-.vs-white {
-  fill: #fff;
+.header-brains1 {
+  fill:#b54d15;
 }
 
-.vs-text {
-  font-family: "CabinSketch-Bold"
+.header-brains2 {
+  fill:#f6921e;
 }
 
-.vs-text-size {
-  font-size: 48px;
+.header-brains3 {
+  fill: #004a41;
 }
 
-.right-brain-outline {
-  fill: #f7941e;
+.header-brains4 {
+  fill: #0b8072;
 }
 
-.right-brain-fill {
-  fill: #f8f6c0;
+.header-brains5 {
+  font-family:&apos;Quicksand-Bold&apos;
 }
 
-h1 {
-  font
+.header-brains6 {
+  font-size: 65.4828px;
 }
+
+.header-brains7 {
+  letter-spacing: -6;
+}
+
+.header-brains8 {
+  letter-spacing: -1;
+}
+
 
