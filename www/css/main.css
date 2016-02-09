@@ -12,8 +12,8 @@ html {
   text-size-adjust: 100%;
 
 
-  font-family: 'Fredoka One', cursive;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Fredoka One", cursive;
+  font-family: "Quicksand", sans-serif;
 
 }
 
@@ -33,17 +33,17 @@ body {
 }
 
 .header-brains0 {
-  fill: none;
-  display: none;
+  fill:none;
+  stroke: none;
 }
 
 .header-brains1 {
-  fill:#b54d15;
+  fill: #b54d15;
   stroke: none;
 }
 
 .header-brains2 {
-  fill:#f6921e;
+  fill: #f6921e;
   stroke: none;
 }
 
@@ -58,19 +58,11 @@ body {
 }
 
 .header-brains5 {
-  font-family:&apos;Quicksand-Bold&apos;
+  font-family: "FredokaOne-Regular", cursive;
 }
 
 .header-brains6 {
   font-size: 65.4828px;
-}
-
-.header-brains7 {
-  letter-spacing: -6;
-}
-
-.header-brains8 {
-  letter-spacing: -1;
 }
 
 /** BOXES **/
