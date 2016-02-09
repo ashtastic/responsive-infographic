@@ -98,6 +98,60 @@ body {
   text-align: center;
 }
 
+/** BRAIN ICONS **/
+
+.planner0 {
+  fill: #0b8072;
+  stroke: #004a41;
+  stroke-width: 3;
+  stroke-miterlimit: 10;
+}
+
+.planner1 {
+  fill: #004a41;
+}
+
+.planner2 {
+  fill: #fff;
+}
+
+.planner3 {
+  fill: none;
+  stroke: #231f20;
+  stroke-width: 4;
+  stroke-miterlimit: 10;
+}
+
+.planner4 {
+  fill: #223e52;
+}
+
+.planner5 {
+  fill: #0fa0b9;
+}
+
+.rb-icon0 {
+  fill: #f6921e;
+  stroke: #b54d15;
+  stroke-width: 3;
+  stroke-miterlimit: 10;
+}
+
+.rb-icon1 {
+  fill:#fff;
+}
+
+.rb-icon2 {
+  fill: #b54d15;
+}
+
+.rb-icon3 {
+  fill: #0fa0b9;
+  stroke: #cce9eb;
+  stroke-width: 6;
+  stroke-miterlimit: 10;
+}
+
 
 
 
