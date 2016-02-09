@@ -12,7 +12,7 @@ html {
   text-size-adjust: 100%;
 
 
-  font-family: "Fredoka One", cursive;
+  font-family: "Fredoka One", sans-serif;
   font-family: "Quicksand", sans-serif;
 
 }
@@ -24,6 +24,12 @@ html {
 body {
   margin: 0;
   background-color: #fdfced;
+}
+
+svg {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 /** HEADER-BRAINS **/
@@ -58,7 +64,7 @@ body {
 }
 
 .header-brains5 {
-  font-family: "FredokaOne-Regular", cursive;
+  font-family: "FredokaOne-Regular", sans-serif;
 }
 
 .header-brains6 {
