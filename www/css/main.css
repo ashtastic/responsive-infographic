@@ -104,30 +104,7 @@ svg {
 
 /** BARS **/
 
-.horizontal-blue {
-  background-image: url("../images/horizontal-blue.svg");
-  width: 100%;
-}
 
-.horizontal-orange {
-  background-image: url("../images/horizontal-orange.svg");
-  width: 100%;
-}
-
-.vertical-blue {
-  background-image: url("../images/vertical-blue.svg");
-  width: 100%;
-}
-
-.vertical-orange {
-  background-image: url("../images/vertical-orange.svg");
-  width: 100%;
-}
-
-.vertical-black {
-  background-image: url("../images/vertical-black.svg");
-  width: 100%;
-}
 
 /** BRAIN ICONS **/
 
