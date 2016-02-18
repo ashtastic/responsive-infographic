@@ -12,7 +12,7 @@ html {
   text-size-adjust: 100%;
 
 
-  font-family: "Fredoka One", cursive;
+  font-family: "Fredoka One", sans-serif;
   font-family: "Quicksand", sans-serif;
 
 }
@@ -24,6 +24,12 @@ html {
 body {
   margin: 0;
   background-color: #fdfced;
+}
+
+svg {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 /** HEADER-BRAINS **/
@@ -58,7 +64,7 @@ body {
 }
 
 .header-brains5 {
-  font-family: "FredokaOne-Regular", cursive;
+  font-family: "FredokaOne-Regular", sans-serif;
 }
 
 .header-brains6 {
@@ -69,6 +75,15 @@ body {
 
 .info-box {
   margin: 2em 1em 2em 1em;
+  padding: 1em;
+  background: #fff;
+  border: solid 3px #000;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.info-box-0 {
+  margin: 0 1em 2em 1em;
   padding: 1em;
   background: #fff;
   border: solid 3px #000;
@@ -95,6 +110,22 @@ body {
   text-align: center;
   color: #b54d15;
 }
+
+/** BARS **/
+.vertical-top {
+  background:
+    url(../images/blue-vertical-top.svg) repeat-y 25% top / 5px auto,
+    url(../images/orange-vertical-top.svg) repeat-y 75% top / 5px auto
+  ;
+}
+
+.vertical {
+  background:
+    url(../images/blue-vertical.svg) repeat-y 25% top / 5px auto,
+    url(../images/orange-vertical.svg) repeat-y 75% top / 5px auto
+  ;
+}
+
 
 /** BRAIN ICONS **/
 
@@ -469,4 +500,130 @@ body {
 .psychic3 {
   fill: #b54d15;
   stroke: none;
+}
+
+/** BARS **/
+
+.xs-vertical {
+  background:
+    url(../images/blue-vertical.svg) repeat-y 25% top / 5px auto,
+    url(../images/orange-vertical.svg) repeat-y 75% top / 5px auto;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .s-vertical {
+    background:
+      url(../images/blue-vertical.svg) repeat-y 25% top / 5px auto,
+      url(../images/orange-vertical.svg) repeat-y 75% top / 5px auto;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .m-vertical {
+    background:
+      url(../images/blue-vertical.svg) repeat-y 25% top / 5px auto,
+      url(../images/orange-vertical.svg) repeat-y 75% top / 5px auto;
+  }
+
+  .m-vertical-0 {
+    background: none;
+  }
+
+  .m-vertical-blue {
+    background:
+      url(../images/blue-vertical.svg) repeat-y 25% top / 5px auto,
+      url(../images/blue-vertical.svg) repeat-y 75% top / 5px auto;
+  }
+
+  .m-vertical-blue-75 {
+      background:
+        url(../images/blue-vertical.svg) repeat-y 75% top / 5px auto;
+  }
+
+  .m-vertical-orange {
+    background:
+      url(../images/orange-vertical.svg) repeat-y 25% top / 5px auto,
+      url(../images/orange-vertical.svg) repeat-y 75% top / 5px auto;
+  }
+
+  .m-vertical-orange-75 {
+      background:
+        url(../images/blue-vertical.svg) repeat-y 25% top / 5px auto;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .l-vertical {
+    background:
+      url(../images/blue-vertical.svg) repeat-y 25% top / 5px auto,
+      url(../images/orange-vertical.svg) repeat-y 75% top / 5px auto;
+  }
+
+  .l-vertical-0 {
+    background: none;
+  }
+
+  .l-vertical-blue {
+    background:
+      url(../images/blue-vertical.svg) repeat-y 25% top / 5px auto,
+      url(../images/blue-vertical.svg) repeat-y 75% top / 5px auto;
+  }
+
+  .l-vertical-blue-75 {
+    background:
+      url(../images/blue-vertical.svg) repeat-y 75% top / 5px auto;
+  }
+
+  .l-vertical-orange {
+    background:
+      url(../images/orange-vertical.svg) repeat-y 25% top / 5px auto,
+      url(../images/orange-vertical.svg) repeat-y 75% top / 5px auto;
+  }
+
+  .l-vertical-orange-75 {
+      background:
+        url(../images/blue-vertical.svg) repeat-y 25% top / 5px auto;
+  }
+
+}
+
+@media only screen and (min-width: 6020em) {
+
+  .xl-vertical {
+    background:
+      url(../images/blue-vertical.svg) repeat-y 25% top / 5px auto,
+      url(../images/orange-vertical.svg) repeat-y 75% top / 5px auto;
+  }
+
+  .xl-vertical-0 {
+    background: none;
+  }
+
+  .xl-vertical-blue {
+    background:
+      url(../images/blue-vertical.svg) repeat-y 25% top / 5px auto,
+      url(../images/blue-vertical.svg) repeat-y 75% top / 5px auto;
+  }
+
+  .xl-vertical-blue-75 {
+    background:
+      url(../images/blue-vertical.svg) repeat-y 75% top / 5px auto;
+  }
+
+  .xl-vertical-orange {
+    background:
+      url(../images/orange-vertical.svg) repeat-y 25% top / 5px auto,
+      url(../images/orange-vertical.svg) repeat-y 75% top / 5px auto;
+  }
+
+  .xl-vertical-orange-75 {
+      background:
+        url(../images/blue-vertical.svg) repeat-y 25% top / 5px auto;
+  }
+
 }
