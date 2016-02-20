@@ -82,8 +82,26 @@ svg {
   text-align: center;
 }
 
-.info-box-0 {
+.info-box-top-0 {
   margin: 0 1em 2em 1em;
+  padding: 1em;
+  background: #fff;
+  border: solid 3px #000;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.info-box-bottom-0 {
+  margin: 2em 1em 0 1em;
+  padding: 1em;
+  background: #fff;
+  border: solid 3px #000;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.info-box-0 {
+  margin: 0 1em 0 1em;
   padding: 1em;
   background: #fff;
   border: solid 3px #000;
@@ -101,8 +119,28 @@ svg {
   color: #004a41;
 }
 
+.lb-box-top-0 {
+  margin: 0 0.5em 0.5em 1em;
+  padding: 1em;
+  background: #e7f4d7;
+  border: solid 3px #004a41;
+  border-radius: 10px;
+  text-align: center;
+  color: #004a41;
+}
+
 .rb-box {
   margin: 0.5em 1em 0.5em 0.5em;
+  padding: 1em;
+  background: #f7f5c0;
+  border: solid 3px #b54d15;
+  border-radius: 10px;
+  text-align: center;
+  color: #b54d15;
+}
+
+.rb-box-top-0 {
+  margin: 0 1em 0.5em 0.5em;
   padding: 1em;
   background: #f7f5c0;
   border: solid 3px #b54d15;
@@ -488,13 +526,6 @@ svg {
 
 /** BARS **/
 
-.xs-vertical-top {
-  background:
-    url(../images/blue-vertical-top.svg) repeat-y 25% top / 5px auto,
-    url(../images/orange-vertical-top.svg) repeat-y 75% top / 5px auto
-  ;
-}
-
 .xs-vertical {
   background:
     url(../images/blue-vertical.svg) repeat-y 25% top / 5px auto,
@@ -503,13 +534,6 @@ svg {
 }
 
 @media only screen and (min-width: 25em) {
-
-  .s-vertical-top {
-    background:
-      url(../images/blue-vertical-top.svg) repeat-y 25% top / 5px auto,
-      url(../images/orange-vertical-top.svg) repeat-y 75% top / 5px auto
-    ;
-  }
 
   .s-vertical {
     background:
@@ -521,13 +545,6 @@ svg {
 
 @media only screen and (min-width: 38em) {
 
-  .m-vertical-top {
-    background:
-      url(../images/blue-vertical-top.svg) repeat-y 25% top / 5px auto,
-      url(../images/orange-vertical-top.svg) repeat-y 75% top / 5px auto
-    ;
-  }
-
   .m-vertical {
     background:
       url(../images/blue-vertical.svg) repeat-y 25% top / 5px auto,
@@ -538,22 +555,6 @@ svg {
     background:
       url(../images/blue-vertical.svg) repeat-y 37.5% top / 5px auto,
       url(../images/orange-vertical.svg) repeat-y 62.5% top / 5px auto;
-  }
-
-  .m-vertical-top-2 {
-    background:
-      url(../images/blue-vertical-top.svg) repeat-y 37.5% top / 5px auto,
-      url(../images/orange-vertical-top.svg) repeat-y 62.5% top / 5px auto;
-  }
-
-  .m-vertical-6 {
-    background:
-      url(../images/blue-vertical-bottom.svg) repeat-y 25% top / 6px auto,
-      url(../images/orange-vertical-bottom.svg) repeat-y 75% top / 6px auto,
-      url(../images/blue-vertical-top.svg) repeat-y 12.5% top / 6px auto,
-      url(../images/blue-vertical-top.svg) repeat-y 37.5% top / 6px auto,
-      url(../images/orange-vertical-top.svg) repeat-y 62.5% top / 6px auto,
-      url(../images/orange-vertical-top.svg) repeat-y 87.5% top / 6px auto;
   }
 
   .m-vertical-0 {
@@ -572,11 +573,6 @@ svg {
       url(../images/orange-vertical.svg) repeat-y 75% top / 5px auto;
   }
 
-  .m-horizontal-blue {
-    background:
-      url(..images/blue-horizontal.svg) repeat-x 100% top / 5px auto;
-  }
-
 }
 
 @media only screen and (min-width: 60em) {
@@ -593,62 +589,39 @@ svg {
       url(../images/orange-vertical.svg) repeat-y 62.5% top / 5px auto;
   }
 
-  .l-vertical-top-2 {
-    background:
-      url(../images/blue-vertical-top.svg) repeat-y 37.5% top / 5px auto,
-      url(../images/orange-vertical-top.svg) repeat-y 62.5% top / 5px auto;
-  }
-
-  .l-vertical-4 {
-    background:
-      url(../images/blue-vertical-bottom.svg) repeat-y 25% top / 5px auto,
-      url(../images/orange-vertical-bottom.svg) repeat-y 75% top / 5px auto,
-      url(../images/blue-vertical-top.svg) repeat-y 37.5% top / 5px auto,
-      url(../images/orange-vertical-top.svg) repeat-y 62.5% top / 5px auto;
-  }
-
-  .l-vertical-bottom-4 {
-    background:
-      url(../images/blue-vertical-bottom.svg) repeat-y 12.5% top / 6px auto,
-      url(../images/blue-vertical-bottom.svg) repeat-y 37.5% top / 6px auto,
-      url(../images/orange-vertical-bottom.svg) repeat-y 62.5% top / 6px auto,
-      url(../images/orange-vertical-bottom.svg) repeat-y 87.5% top / 6px auto;
-  }
-
-  .l-vertical-6 {
-    background:
-      url(../images/blue-vertical-bottom.svg) repeat-y 37.5% top / 5px auto,
-      url(../images/orange-vertical-bottom.svg) repeat-y 62.5% top / 5px auto,
-      url(../images/blue-vertical-top.svg) repeat-y 12.5% top / 6px auto,
-      url(../images/blue-vertical-top.svg) repeat-y 37.5% top / 6px auto,
-      url(../images/orange-vertical-top.svg) repeat-y 62.5% top / 6px auto,
-      url(../images/orange-vertical-top.svg) repeat-y 87.5% top / 6px auto;
-  }
-
   .l-vertical-0 {
     background: none;
   }
 
+  .l-vertical-4 {
+    background:
+      url(../images/blue-vertical.svg) repeat-y 12.5% top / 5px auto,
+      url(../images/blue-vertical.svg) repeat-y 37.5% top / 5px auto,
+      url(../images/orange-vertical.svg) repeat-y 62.5% top / 5px auto,
+      url(../images/orange-vertical.svg) repeat-y 87.5% top / 5px auto;
+  }
+
   .l-vertical-blue {
     background:
-      url(../images/blue-vertical.svg) repeat-y 25.2% top / 5px auto,
-      url(../images/blue-vertical.svg) repeat-y 75.3% top / 5px auto;
+      url(../images/blue-vertical.svg) repeat-y 25% top / 5px auto,
+      url(../images/blue-vertical.svg) repeat-y 75% top / 5px auto;
   }
 
   .l-vertical-orange {
     background:
-      url(../images/orange-vertical.svg) repeat-y 24.5% top / 5px auto,
-      url(../images/orange-vertical.svg) repeat-y 74.7% top / 5px auto;
+      url(../images/orange-vertical.svg) repeat-y 25% top / 5px auto,
+      url(../images/orange-vertical.svg) repeat-y 75% top / 5px auto;
   }
 
   .l-horizontal-blue {
     background:
-      url(../images/blue-horizontal.svg) no-repeat center center / 900px auto;
+      url(../images/blue-horizontal.svg) no-repeat center center / 1000px auto;
   }
 
   .l-horizontal-orange {
     background:
-      url(../images/orange-horizontal.svg) no-repeat center center / 900px auto;
+      url(../images/orange-horizontal.svg) no-repeat center center / 1000px auto;
+    align-items: stretch;
   }
 
 }
@@ -667,40 +640,16 @@ svg {
       url(../images/orange-vertical.svg) repeat-y 62.5% top / 5px auto;
   }
 
-  .xl-vertical-top-2 {
-    background:
-      url(../images/blue-vertical-top.svg) repeat-y 37.5% top / 5px auto,
-      url(../images/orange-vertical-top.svg) repeat-y 62.5% top / 5px auto;
+  .xl-vertical-0 {
+    background: none;
   }
 
   .xl-vertical-4 {
     background:
-      url(../images/blue-vertical-bottom.svg) repeat-y 25% top / 6px auto,
-      url(../images/orange-vertical-bottom.svg) repeat-y 75% top / 6px auto,
-      url(../images/blue-vertical-top.svg) repeat-y 37.5% top / 6px auto,
-      url(../images/orange-vertical-top.svg) repeat-y 62.5% top / 6px auto;
-  }
-
-  .xl-vertical-bottom-4 {
-    background:
-      url(../images/blue-vertical-bottom.svg) repeat-y 12.5% top / 6px auto,
-      url(../images/blue-vertical-bottom.svg) repeat-y 37.5% top / 6px auto,
-      url(../images/orange-vertical-bottom.svg) repeat-y 62.5% top / 6px auto,
-      url(../images/orange-vertical-bottom.svg) repeat-y 87.5% top / 6px auto;
-  }
-
-  .xl-vertical-6 {
-    background:
-      url(../images/blue-vertical-bottom.svg) repeat-y 37.5% top / 6px auto,
-      url(../images/orange-vertical-bottom.svg) repeat-y 62.5% top / 6px auto,
-      url(../images/blue-vertical-top.svg) repeat-y 12.5% top / 6px auto,
-      url(../images/blue-vertical-top.svg) repeat-y 37.5% top / 6px auto,
-      url(../images/orange-vertical-top.svg) repeat-y 62.5% top / 6px auto,
-      url(../images/orange-vertical-top.svg) repeat-y 87.5% top / 6px auto;
-  }
-
-  .xl-vertical-0 {
-    background: none;
+      url(../images/blue-vertical.svg) repeat-y 12.5% top / 5px auto,
+      url(../images/blue-vertical.svg) repeat-y 37.5% top / 5px auto,
+      url(../images/orange-vertical.svg) repeat-y 62.5% top / 5px auto,
+      url(../images/orange-vertical.svg) repeat-y 87.5% top / 5px auto;
   }
 
   .xl-vertical-blue {
@@ -717,12 +666,12 @@ svg {
 
   .xl-horizontal-blue {
     background:
-      url(../images/blue-horizontal.svg) no-repeat center center / 900px auto;
+      url(../images/blue-horizontal.svg) no-repeat center center / 1000px auto;
   }
 
   .xl-horizontal-orange {
     background:
-      url(../images/orange-horizontal.svg) no-repeat center center / 900px auto;
+      url(../images/orange-horizontal.svg) no-repeat center center / 1000px auto;
   }
 
 }
