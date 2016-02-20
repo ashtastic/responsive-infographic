@@ -590,7 +590,7 @@ svg {
   .l-vertical-2 {
     background:
       url(../images/blue-vertical.svg) repeat-y 37.5% top / 5px auto,
-      url(../images/orange-vertical.svg) repeat-y 62.5% top / 5px auto,
+      url(../images/orange-vertical.svg) repeat-y 62.5% top / 5px auto;
   }
 
   .l-vertical-top-2 {
@@ -612,7 +612,7 @@ svg {
       url(../images/blue-vertical-bottom.svg) repeat-y 12.5% top / 6px auto,
       url(../images/blue-vertical-bottom.svg) repeat-y 37.5% top / 6px auto,
       url(../images/orange-vertical-bottom.svg) repeat-y 62.5% top / 6px auto,
-      url(../images/orange-vertical-bottom.svg) repeat-y 87.5% top / 6px auto,;
+      url(../images/orange-vertical-bottom.svg) repeat-y 87.5% top / 6px auto;
   }
 
   .l-vertical-6 {
@@ -686,7 +686,7 @@ svg {
       url(../images/blue-vertical-bottom.svg) repeat-y 12.5% top / 6px auto,
       url(../images/blue-vertical-bottom.svg) repeat-y 37.5% top / 6px auto,
       url(../images/orange-vertical-bottom.svg) repeat-y 62.5% top / 6px auto,
-      url(../images/orange-vertical-bottom.svg) repeat-y 87.5% top / 6px auto,;
+      url(../images/orange-vertical-bottom.svg) repeat-y 87.5% top / 6px auto;
   }
 
   .xl-vertical-6 {
