@@ -555,7 +555,6 @@ svg {
     background:
       url(../images/blue-vertical.svg) repeat-y 37.5% top / 5px auto,
       url(../images/orange-vertical.svg) repeat-y 62.5% top / 5px auto;
-    align: stretch;
   }
 
   .m-vertical-0 {
