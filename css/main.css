@@ -11,7 +11,6 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-
   font-family: "Fredoka One", sans-serif;
   font-family: "Quicksand", sans-serif;
 
@@ -39,7 +38,7 @@ svg {
 }
 
 .header-brains0 {
-  fill:none;
+  fill: none;
   stroke: none;
 }
 
@@ -212,7 +211,7 @@ svg {
 }
 
 .realistic1 {
-  fill:#004a41;
+  fill: #004a41;
   stroke: none;
 }
 
@@ -223,7 +222,7 @@ svg {
 
 .realistic3 {
   fill: #fff;
-  stroke: #0Fa0b9;
+  stroke: #0fa0b9;
   stroke-width: 6;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -231,7 +230,7 @@ svg {
 
 .realistic4 {
   fill: #0fa0b9;
-  stroke:#223e52;
+  stroke: #223e52;
   stroke-width: 8;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -270,7 +269,7 @@ svg {
 .impulsive4 {
   fill: #f05a22;
   stroke: #f06356;
-  stroke-width:2;
+  stroke-width: 2;
   stroke-linecap: round;
 }
 
@@ -321,7 +320,7 @@ svg {
 }
 
 .creative1 {
-  fill:#fff;
+  fill: #fff;
   stroke: none;
 }
 
@@ -331,7 +330,7 @@ svg {
 }
 
 .creative3 {
-  fill:#ffc50a;
+  fill: #ffc50a;
   stroke: #f05a22;
   stroke-width: 4;
   stroke-linecap: round;
@@ -350,7 +349,7 @@ svg {
 }
 
 .logical1 {
-  fill:#fff;
+  fill: #fff;
   stroke: none;
 }
 
@@ -363,7 +362,7 @@ svg {
   fill: #fff;
   stroke: #4ec5e0;
   stroke-width: 6;
-  }
+}
 
 .logical4 {
   fill: none;
@@ -414,13 +413,13 @@ svg {
 
 .sound5 {
   fill: #b54d15;
-  stroke:#B54D15;
+  stroke: #b54d15;
   stroke-width: 2;
 }
 
 .sound6 {
   fill: none;
-  stroke:#B54D15;
+  stroke: #b54d15;
   stroke-width: 4;
 }
 
@@ -431,29 +430,29 @@ svg {
 }
 
 .rational1 {
-  fill:#004a41;
+  fill: #004a41;
   stroke: none;
 }
 
 .rational2 {
-  fill:#fff;
+  fill: #fff;
   stroke: none;
 }
 
 .rational3 {
-  fill:#0fa0b9;
+  fill: #0fa0b9;
   stroke: none;
 }
 
 .rational4 {
-  fill:#223e52;
+  fill: #223e52;
   stroke: none;
 }
 
 .intuitive0 {
-  fill:#f6921e;
+  fill: #f6921e;
   stroke: #b54d15;
-  stroke-width:5;
+  stroke-width: 5;
 }
 
 .intuitive1 {
@@ -462,12 +461,12 @@ svg {
 }
 
 .intuitive2 {
-  fill:#b54d15;
+  fill: #b54d15;
   stroke: none;
 }
 
 .intuitive3 {
-  fill:#ffc50a;
+  fill: #ffc50a;
 }
 
 .intuitive4 {
@@ -482,7 +481,7 @@ svg {
 }
 
 .precise1 {
-  fill:#fff;
+  fill: #fff;
   stroke: none;
 }
 
@@ -527,18 +526,13 @@ svg {
 /** BARS **/
 
 .xs-vertical {
-  background:
-    url(../images/blue-vertical.svg) repeat-y 25% top / 5px auto,
-    url(../images/orange-vertical.svg) repeat-y 75% top / 5px auto
-  ;
+  background: url("../images/blue-vertical.svg") repeat-y 25% top / 5px auto, url("../images/orange-vertical.svg") repeat-y 75% top / 5px auto;
 }
 
 @media only screen and (min-width: 25em) {
 
   .s-vertical {
-    background:
-      url(../images/blue-vertical.svg) repeat-y 25% top / 5px auto,
-      url(../images/orange-vertical.svg) repeat-y 75% top / 5px auto;
+    background: url("../images/blue-vertical.svg") repeat-y 25% top / 5px auto, url("../images/orange-vertical.svg") repeat-y 75% top / 5px auto;
   }
 
 }
@@ -546,15 +540,11 @@ svg {
 @media only screen and (min-width: 38em) {
 
   .m-vertical {
-    background:
-      url(../images/blue-vertical.svg) repeat-y 25% top / 5px auto,
-      url(../images/orange-vertical.svg) repeat-y 75% top / 5px auto;
+    background: url("../images/blue-vertical.svg") repeat-y 25% top / 5px auto, url("../images/orange-vertical.svg") repeat-y 75% top / 5px auto;
   }
 
   .m-vertical-2 {
-    background:
-      url(../images/blue-vertical.svg) repeat-y 37.5% top / 5px auto,
-      url(../images/orange-vertical.svg) repeat-y 62.5% top / 5px auto;
+    background: url("../images/blue-vertical.svg") repeat-y 37.5% top / 5px auto, url("../images/orange-vertical.svg") repeat-y 62.5% top / 5px auto;
   }
 
   .m-vertical-0 {
@@ -562,15 +552,11 @@ svg {
   }
 
   .m-vertical-blue {
-    background:
-      url(../images/blue-vertical.svg) repeat-y 25% top / 5px auto,
-      url(../images/blue-vertical.svg) repeat-y 75% top / 5px auto;
+    background: url("../images/blue-vertical.svg") repeat-y 25% top / 5px auto, url("../images/blue-vertical.svg") repeat-y 75% top / 5px auto;
   }
 
   .m-vertical-orange {
-    background:
-      url(../images/orange-vertical.svg) repeat-y 25% top / 5px auto,
-      url(../images/orange-vertical.svg) repeat-y 75% top / 5px auto;
+    background: url("../images/orange-vertical.svg") repeat-y 25% top / 5px auto, url("../images/orange-vertical.svg") repeat-y 75% top / 5px auto;
   }
 
 }
@@ -578,15 +564,11 @@ svg {
 @media only screen and (min-width: 60em) {
 
   .l-vertical {
-    background:
-      url(../images/blue-vertical.svg) repeat-y 25% top / 5px auto,
-      url(../images/orange-vertical.svg) repeat-y 75% top / 5px auto;
+    background: url("../images/blue-vertical.svg") repeat-y 25% top / 5px auto, url("../images/orange-vertical.svg") repeat-y 75% top / 5px auto;
   }
 
   .l-vertical-2 {
-    background:
-      url(../images/blue-vertical.svg) repeat-y 37.5% top / 5px auto,
-      url(../images/orange-vertical.svg) repeat-y 62.5% top / 5px auto;
+    background: url("../images/blue-vertical.svg") repeat-y 37.5% top / 5px auto, url("../images/orange-vertical.svg") repeat-y 62.5% top / 5px auto;
   }
 
   .l-vertical-0 {
@@ -594,33 +576,23 @@ svg {
   }
 
   .l-vertical-4 {
-    background:
-      url(../images/blue-vertical.svg) repeat-y 12.5% top / 5px auto,
-      url(../images/blue-vertical.svg) repeat-y 37.5% top / 5px auto,
-      url(../images/orange-vertical.svg) repeat-y 62.5% top / 5px auto,
-      url(../images/orange-vertical.svg) repeat-y 87.5% top / 5px auto;
+    background: url("../images/blue-vertical.svg") repeat-y 12.5% top / 5px auto, url("../images/blue-vertical.svg") repeat-y 37.5% top / 5px auto, url("../images/orange-vertical.svg") repeat-y 62.5% top / 5px auto, url("../images/orange-vertical.svg") repeat-y 87.5% top / 5px auto;
   }
 
   .l-vertical-blue {
-    background:
-      url(../images/blue-vertical.svg) repeat-y 25% top / 5px auto,
-      url(../images/blue-vertical.svg) repeat-y 75% top / 5px auto;
+    background: url("../images/blue-vertical.svg") repeat-y 25% top / 5px auto, url("../images/blue-vertical.svg") repeat-y 75% top / 5px auto;
   }
 
   .l-vertical-orange {
-    background:
-      url(../images/orange-vertical.svg) repeat-y 25% top / 5px auto,
-      url(../images/orange-vertical.svg) repeat-y 75% top / 5px auto;
+    background: url("../images/orange-vertical.svg") repeat-y 25% top / 5px auto, url("../images/orange-vertical.svg") repeat-y 75% top / 5px auto;
   }
 
   .l-horizontal-blue {
-    background:
-      url(../images/blue-horizontal.svg) no-repeat center center / 1000px auto;
+    background: url("../images/blue-horizontal.svg") no-repeat center center / 1000px auto;
   }
 
   .l-horizontal-orange {
-    background:
-      url(../images/orange-horizontal.svg) no-repeat center center / 1000px auto;
+    background: url("../images/orange-horizontal.svg") no-repeat center center / 1000px auto;
     align-items: stretch;
   }
 
@@ -629,15 +601,11 @@ svg {
 @media only screen and (min-width: 6020em) {
 
   .xl-vertical {
-    background:
-      url(../images/blue-vertical.svg) repeat-y 25% top / 5px auto,
-      url(../images/orange-vertical.svg) repeat-y 75% top / 5px auto;
+    background: url("../images/blue-vertical.svg") repeat-y 25% top / 5px auto, url("../images/orange-vertical.svg") repeat-y 75% top / 5px auto;
   }
 
   .xl-vertical-2 {
-    background:
-      url(../images/blue-vertical.svg) repeat-y 37.5% top / 5px auto,
-      url(../images/orange-vertical.svg) repeat-y 62.5% top / 5px auto;
+    background: url("../images/blue-vertical.svg") repeat-y 37.5% top / 5px auto, url("../images/orange-vertical.svg") repeat-y 62.5% top / 5px auto;
   }
 
   .xl-vertical-0 {
@@ -645,33 +613,23 @@ svg {
   }
 
   .xl-vertical-4 {
-    background:
-      url(../images/blue-vertical.svg) repeat-y 12.5% top / 5px auto,
-      url(../images/blue-vertical.svg) repeat-y 37.5% top / 5px auto,
-      url(../images/orange-vertical.svg) repeat-y 62.5% top / 5px auto,
-      url(../images/orange-vertical.svg) repeat-y 87.5% top / 5px auto;
+    background: url("../images/blue-vertical.svg") repeat-y 12.5% top / 5px auto, url("../images/blue-vertical.svg") repeat-y 37.5% top / 5px auto, url("../images/orange-vertical.svg") repeat-y 62.5% top / 5px auto, url("../images/orange-vertical.svg") repeat-y 87.5% top / 5px auto;
   }
 
   .xl-vertical-blue {
-    background:
-      url(../images/blue-vertical.svg) repeat-y 25% top / 5px auto,
-      url(../images/blue-vertical.svg) repeat-y 75% top / 5px auto;
+    background: url("../images/blue-vertical.svg") repeat-y 25% top / 5px auto, url("../images/blue-vertical.svg") repeat-y 75% top / 5px auto;
   }
 
   .xl-vertical-orange {
-    background:
-      url(../images/orange-vertical.svg) repeat-y 25% top / 5px auto,
-      url(../images/orange-vertical.svg) repeat-y 75% top / 5px auto;
+    background: url("../images/orange-vertical.svg") repeat-y 25% top / 5px auto, url("../images/orange-vertical.svg") repeat-y 75% top / 5px auto;
   }
 
   .xl-horizontal-blue {
-    background:
-      url(../images/blue-horizontal.svg) no-repeat center center / 1000px auto;
+    background: url("../images/blue-horizontal.svg") no-repeat center center / 1000px auto;
   }
 
   .xl-horizontal-orange {
-    background:
-      url(../images/orange-horizontal.svg) no-repeat center center / 1000px auto;
+    background: url("../images/orange-horizontal.svg") no-repeat center center / 1000px auto;
   }
 
 }
